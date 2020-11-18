@@ -2,5 +2,17 @@
     width: 100px;
     height: 100px;
     background: red;
+    animation-name: bgChange;
+    animation-duration: 3s;
+}
+
+@keyframes bgChange{
+    from{
+        background: red;
+    }
+
+    to{
+        background: green;
+    }
 }
 
